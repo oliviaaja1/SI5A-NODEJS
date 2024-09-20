@@ -14,8 +14,8 @@ const server = http.createServer( (req,res) => {
 
     } else if (req.url === '/mahasiswa'){
         message = 'List data mahasiswa';
-        data = ['Akbar', 'Rizky', 'Akbar'];
-        
+        data = ['Akbar', 'Rizky', 'Kenny'];
+
     } else {
         message = 'Tidak Ditemukan';
         data = [];
